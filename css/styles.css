@@ -7,14 +7,15 @@ body {
 .gallery {
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 24px;
     list-style: none;
-    padding: 20px;
+    padding: 24px;
     justify-content: center;
+    align-items: center;
 }
 
 .gallery-item {
-    max-width: 320px;
+    width: calc(100% - 48px)/3;
     border-radius: 8px;
     overflow: hidden;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
